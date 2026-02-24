@@ -21,3 +21,14 @@ let l = "iam let";
 
 
 console.log("hi js");
+alert("vedio start hobe 35.7 thake")
+
+/**
+ * const user = {
+ * name:"ar",
+ * age:25
+ * };
+ * localStorage.setitem("user",JSON.stringify(user));
+ * outPut:- const storedUser = JSON.parse(localStorage.getItem("user"));
+ * console.log(storedUser.name);
+ */
