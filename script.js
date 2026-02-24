@@ -12,8 +12,8 @@ function sayHi(){
 /**
  * Funk fully hosted hoy
  */
-console.log(l);
-let l = "iam let";
+// console.log(l);
+// let l = "iam let";
 /**
  * hosted but insitial korer age access kora jai na, reference error show kore and TDZ
  */
@@ -21,7 +21,7 @@ let l = "iam let";
 
 
 console.log("hi js");
-alert("vedio start hobe 35.7 thake")
+// alert("vedio start hobe 35.7 thake")
 
 /**
  * const user = {
@@ -32,3 +32,18 @@ alert("vedio start hobe 35.7 thake")
  * outPut:- const storedUser = JSON.parse(localStorage.getItem("user"));
  * console.log(storedUser.name);
  */
+
+// send data into local stroge;
+const user = {
+    name:"ar",
+    age:20
+}
+localStorage.setItem("user:",JSON.stringify(user));
+
+// send data session storage code start now;
+const firends = {
+    name:"HU",
+    age:20,
+    hobbie:"Codding"
+}
+sessionStorage.setItem("frieds:",JSON.stringify(firends));
