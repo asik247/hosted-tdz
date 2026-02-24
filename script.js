@@ -76,4 +76,5 @@ if(data){
 }
 
 // Cokie code start here;
-document.cookie = "name = Asik"
+document.cookie = "name = Asik expires = " + new Date(2026,2,1).toUTCString()
+console.log(document.cookie);
