@@ -80,3 +80,5 @@ document.cookie = "name = Asik expires = " + new Date(2026,2,1).toUTCString()
 console.log(document.cookie);
 document.cookie = "LastName = Rimon expire = " + new Date(2026,2,0).toUTCString()
 console.log(document.cookie);
+console.log("hi js");
+console.log("hello react");
