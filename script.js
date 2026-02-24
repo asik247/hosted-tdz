@@ -39,6 +39,9 @@ const user = {
     age:20
 }
 localStorage.setItem("user:",JSON.stringify(user));
+// getItem localStroge;
+const storedUser = JSON.parse(localStorage.getItem("user:"));
+console.log(storedUser.name);
 
 // send data session storage code start now;
 const firends = {
@@ -47,5 +50,7 @@ const firends = {
     hobbie:"Codding"
 }
 sessionStorage.setItem("frieds:",JSON.stringify(firends));
-console.log("hello js");
-console.log("hello sessionStroge");
+const storedUser2 = JSON.parse(sessionStorage.getItem("frieds:"));
+console.log(storedUser2.age);
+console.log(storedUser2.name);
+console.log(storedUser2.hobbie);
