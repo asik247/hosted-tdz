@@ -74,3 +74,6 @@ if(data){
 }else{
     console.log("No data avaible");
 }
+
+// Cokie code start here;
+document.cookie = "name = Asik"
