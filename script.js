@@ -54,3 +54,23 @@ const storedUser2 = JSON.parse(sessionStorage.getItem("frieds:"));
 console.log(storedUser2.age);
 console.log(storedUser2.name);
 console.log(storedUser2.hobbie);
+
+// Safe error facing code start here;
+const mobile = {
+    brand:"Samsung",
+    price:25000,
+    color:"Black",
+    condition:"Brand New"
+}
+// setItem lg stroge;
+localStorage.setItem("Mobile:",JSON.stringify(mobile));
+// getItem lg stroge;
+const data = localStorage.getItem("Mobile:");
+if(data){
+    const parsIntFomate = JSON.parse(data);
+    console.log(parsIntFomate.brand);
+    console.log(parsIntFomate.price);
+    console.log(parsIntFomate.color);
+}else{
+    console.log("No data avaible");
+}
