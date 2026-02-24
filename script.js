@@ -48,3 +48,4 @@ const firends = {
 }
 sessionStorage.setItem("frieds:",JSON.stringify(firends));
 console.log("hello js");
+console.log("hello sessionStroge");
