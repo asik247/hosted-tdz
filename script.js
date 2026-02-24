@@ -47,3 +47,4 @@ const firends = {
     hobbie:"Codding"
 }
 sessionStorage.setItem("frieds:",JSON.stringify(firends));
+console.log("hello js");
