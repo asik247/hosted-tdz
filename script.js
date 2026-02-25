@@ -18,9 +18,6 @@ function sayHi(){
  * hosted but insitial korer age access kora jai na, reference error show kore and TDZ
  */
 
-
-
-console.log("hi js");
 // alert("vedio start hobe 35.7 thake")
 
 /**
@@ -54,6 +51,7 @@ const storedUser2 = JSON.parse(sessionStorage.getItem("frieds:"));
 console.log(storedUser2.age);
 console.log(storedUser2.name);
 console.log(storedUser2.hobbie);
+sessionStorage.removeItem("frieds:")
 
 // Safe error facing code start here;
 const mobile = {
@@ -74,6 +72,12 @@ if(data){
 }else{
     console.log("No data avaible");
 }
+// Moblile delete code start here;
+localStorage.removeItem("user:");
+// localStorage.removeItem("Mobile:")
+// localStorage.removeItem("Mobile:")
+// localStorage.removeItem("Mobile:")
+
 
 // Cokie code start here;
 document.cookie = "name = Asik expires = " + new Date(2026,2,1).toUTCString()
