@@ -6,7 +6,7 @@ var a = 20;
  * var a undifind return kore karon hosted hoy
  */
 sayHi();
-function sayHi(){
+function sayHi() {
     console.log("iam funk");
 }
 /**
@@ -53,13 +53,13 @@ function sayHi(){
 sessionStorage.removeItem("frieds:")
 // Safe error facing code start here;
 const mobile = {
-    brand:"Samsung",
-    price:25000,
-    color:"Black",
-    condition:"Brand New"
+    brand: "Samsung",
+    price: 25000,
+    color: "Black",
+    condition: "Brand New"
 }
 // setItem lg stroge;
-localStorage.setItem("Mobile:",JSON.stringify(mobile));
+localStorage.setItem("Mobile:", JSON.stringify(mobile));
 // getItem lg stroge;
 // const data = localStorage.getItem("Mobile:");
 // if(data){
@@ -85,3 +85,14 @@ localStorage.removeItem("Mobile:")
 // console.log("hi js");
 // console.log("hello react");
 // Cokie code end here;
+
+
+
+const information =
+{
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+}
+localStorage.setItem("In",JSON.stringify(information));
