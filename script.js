@@ -105,3 +105,4 @@ if(output){
 }else{
     console.log("no data avaible");
 }
+localStorage.removeItem("In");
