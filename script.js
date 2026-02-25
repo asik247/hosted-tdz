@@ -1,13 +1,13 @@
 
 // Hosted :-var,let,const all variable hosted hoy;
-console.log(a);
+// console.log(a);
 var a = 20;
 /**
  * var a undifind return kore karon hosted hoy
  */
 sayHi();
 function sayHi() {
-    console.log("iam funk");
+    // console.log("iam funk");
 }
 /**
  * Funk fully hosted hoy
@@ -90,9 +90,18 @@ localStorage.removeItem("Mobile:")
 
 const information =
 {
-    "id": 1,
-    "name": "Leanne Graham",
-    "username": "Bret",
-    "email": "Sincere@april.biz",
+    id: 1,
+    name: "Leanne Graham",
+    username: "Bret",
+    email: "Sincere@april.biz",
 }
 localStorage.setItem("In",JSON.stringify(information));
+// get items code here now;
+const output = localStorage.getItem("In");
+if(output){
+    const converted = JSON.parse(output);
+    console.log(converted.name);
+    console.log(converted.email);
+}else{
+    console.log("no data avaible");
+}
