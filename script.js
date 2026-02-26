@@ -110,3 +110,5 @@ console.log("hi js");
 
 
 document.cookie="name:= Asikur Rahman = " + new Date(2026,2,25).toUTCString()
+console.log("hi");
+console.log("hi");
