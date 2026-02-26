@@ -106,3 +106,4 @@ if(output){
     console.log("no data avaible");
 }
 localStorage.removeItem("In");
+console.log("hi js");
